@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on AriYu&#39;s blog</title>
-    <link>www.yourdomain.com/tags/hugo/</link>
+    <link>http://ariyu.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on AriYu&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Nov 2015 21:20:00 +0900</lastBuildDate>
-    <atom:link href="www.yourdomain.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ariyu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugoでブログをはじめてみた</title>
-      <link>/www.yourdomain.com/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</link>
+      <link>http://ariyu.github.io/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</link>
       <pubDate>Wed, 25 Nov 2015 21:20:00 +0900</pubDate>
       
-      <guid>/www.yourdomain.com/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</guid>
+      <guid>http://ariyu.github.io/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</guid>
       <description>
 
 &lt;p&gt;そろそろブログを始めてみようかなと友人に相談してみたところ，&lt;code&gt;Hugo&lt;/code&gt;というのがあるということで、せっかくなので&lt;code&gt;Hugo&lt;/code&gt;を使ってブログをやってみようかなと思います。&lt;/p&gt;

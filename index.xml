@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AriYu&#39;s blog</title>
+    <link>www.yourdomain.com/</link>
+    <description>Recent content on AriYu&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Nov 2015 21:20:00 +0900</lastBuildDate>
+    <atom:link href="www.yourdomain.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hugoでブログをはじめてみた</title>
+      <link>/www.yourdomain.com/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</link>
+      <pubDate>Wed, 25 Nov 2015 21:20:00 +0900</pubDate>
+      
+      <guid>/www.yourdomain.com/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</guid>
+      <description>
+
+&lt;p&gt;そろそろブログを始めてみようかなと友人に相談してみたところ，&lt;code&gt;Hugo&lt;/code&gt;というのがあるということで、せっかくなので&lt;code&gt;Hugo&lt;/code&gt;を使ってブログをやってみようかなと思います。&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-でブログを公開するまで:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;でブログを公開するまで&lt;/h2&gt;
+
+&lt;p&gt;とりあえず&lt;code&gt;Hugo&lt;/code&gt;でブログを公開するまでの手順を備忘録を兼ねて残しておくことにします。&lt;/p&gt;
+
+&lt;p&gt;ちなみに&lt;code&gt;Ubuntu 14.04&lt;/code&gt;です。&lt;/p&gt;
+
+&lt;h3 id=&#34;go-のインストール:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;&lt;code&gt;Go&lt;/code&gt;のインストール&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Go&lt;/code&gt;を利用しているらしいのでインストールする必要がありますが、私の環境だとインストール済みでしたので割愛。&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo-のインストール:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;&lt;code&gt;Hugo&lt;/code&gt;のインストール&lt;/h3&gt;
+
+&lt;p&gt;ここから&lt;code&gt;tar.gz&lt;/code&gt;か&lt;code&gt;deb&lt;/code&gt;をダウンロードする。&lt;br /&gt;
+&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;https://github.com/spf13/hugo/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;私は&lt;code&gt;hugo_0.15_linux_amd64.tar.gz&lt;/code&gt;をダウンロードしてきて、展開してリネームしてパスの通っているところに置きました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd hugo_0.14_linux_amd64
+mv hugo_0.14_linux_amd64 hugo
+sudo cp hugo /usr/local/bin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;blogをつくる:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;blogをつくる&lt;/h3&gt;
+
+&lt;p&gt;気が向いたら書く&lt;/p&gt;
+
+&lt;h3 id=&#34;管理:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;管理&lt;/h3&gt;
+
+&lt;p&gt;お気に入りのテーマを見つけたら&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd /path/to/blog
+rm -rf themes
+git init .
+git add -A
+git commit -m &amp;quot;hogehoge&amp;quot;
+mkdir themes
+cd themes
+git submodule add https://hogehoge.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;こんな感じで&lt;/p&gt;
+
+&lt;h3 id=&#34;github-ioで公開する:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;github.ioで公開する&lt;/h3&gt;
+
+&lt;p&gt;これも気が向いたら書く。
+やり方はいくつかあるみたい。&lt;/p&gt;
+
+&lt;h3 id=&#34;気になること:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;気になること&lt;/h3&gt;
+
+&lt;p&gt;なんかフォントが気に入らない&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

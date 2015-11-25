@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>/www.yourdomain.com/</loc>
+    <lastmod>2015-11-25T21:20:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/www.yourdomain.com/2015/11/25/hugo%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F</loc>
+    <lastmod>2015-11-25T21:20:00+09:00</lastmod>
+  </url>
+  
+</urlset>
